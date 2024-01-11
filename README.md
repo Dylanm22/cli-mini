@@ -1,5 +1,5 @@
-# ruby-cli-template
+# movie-recommendation-2024
 
-Use this repository as a template for your Ruby CLI (command line interface) project.
+Recommend user a movie that is in theaters today 1-11-24
 
-- Ruby version: `3.2.1`
+run app.rb

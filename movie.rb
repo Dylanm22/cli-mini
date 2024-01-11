@@ -23,6 +23,7 @@ puts"what genre of movie would you want to watch today"
   puts "3. horror"
   puts "4. si-fi "
   puts "5. family "
+  puts "6. exit "
   puts "\n"
   puts "Enter a number"
   self.genre =gets.chomp
@@ -34,9 +35,25 @@ puts"what genre of movie would you want to watch today"
       comedy
   when 2 
     action
-    end
+  
+  when 3
+    horror
+  
+  when 4 
+    sifi
+  when 5 
+    family
+  when 6
+    exit
+  
+  end
 
 end
+
+
+ 
+
+
 
 def comedy
   puts "\n"
@@ -58,7 +75,44 @@ def action
 end
 
 
+def horror
+
+  
+  puts "\n"
+  puts "The Horror movies in theaters today are:"
+  puts"\n"
+  puts "Night Swim"
+  
+end
+  
+def sifi
+
+  
+  puts "\n"
+  puts "The Si-fi movies in theaters today are:"
+  puts"\n"
+  puts "Godzilla Minus One"
+  puts"\n"
+  puts "Aquaman and the Lost Kingdom"
+end
+
+def family
+
+  
+  puts "\n"
+  puts "The family  movies in theaters today are:"
+  puts"\n"
+  puts "Migration"
+  puts"\n"
+  puts "Soul"
+  puts"\n"
+  puts "Wonka"
+end
 
 
+
+def exit 
+
+end
   
 end
