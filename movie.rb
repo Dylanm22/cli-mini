@@ -17,7 +17,7 @@ class Movie
   #pp movie_genre
 
 def this
-puts"what genre of movie would you want to watch today"
+puts"What genre of movie would you like to watch today?"
   puts "1. Comedy "
   puts "2. action "
   puts "3. horror"
@@ -26,11 +26,12 @@ puts"what genre of movie would you want to watch today"
   puts "6. exit "
   puts "\n"
   puts "Enter a number"
+  
   self.genre =gets.chomp
 
   
- choice = @genre.to_i
-  case choice
+genre_num = @genre.to_i
+  case genre_num
   when 1
       comedy
   when 2 
@@ -56,6 +57,8 @@ end
 
 
 def comedy
+ puts "\n"
+  puts "*You picked Comedy*"
   puts "\n"
   puts "The comedy movies in theaters today are:"
   puts"\n"
@@ -63,6 +66,9 @@ def comedy
 end
 
 def action
+  puts "\n"
+  puts "*You picked Action*"
+  
   puts "\n"
   puts "The action movies in theaters today are:"
   puts"\n"
@@ -77,7 +83,8 @@ end
 
 def horror
 
-  
+  puts "\n"
+  puts "*You picked Horror*"
   puts "\n"
   puts "The Horror movies in theaters today are:"
   puts"\n"
@@ -87,7 +94,8 @@ end
   
 def sifi
 
-  
+  puts "\n"
+  puts "*You picked Si-Fi*"
   puts "\n"
   puts "The Si-fi movies in theaters today are:"
   puts"\n"
@@ -98,7 +106,8 @@ end
 
 def family
 
-  
+  puts "\n"
+  puts "*You picked Family*"
   puts "\n"
   puts "The family  movies in theaters today are:"
   puts"\n"
