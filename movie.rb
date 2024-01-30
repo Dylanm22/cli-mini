@@ -43,7 +43,9 @@ class Movie
     when 6
       exit
     end
+  1
   end
+
 
   def comedy
     puts "\n"
